@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+/* ---背景画像---------------------------------------------- */
+body {
+    background-image: url(images/blue-abstract-background-1080x756.jpg);
+    background-size: cover;
+}
+
+/* ---タイトル---------------------------------------------- */
+h1.page-title {
+    color: #000d;
+    text-align: center;
+    font-size: 50px;
+    font-family:sans-serif;
+    border-bottom: 3px #432 solid;
+}
+
+/* ------------------------------------------------- */
+
+article {
+    padding: 0 100px;
+    width: 60%;
+}
+
+
+aside {
+    width: 30%;
+}
+
+
+div.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+
+
+h3 {
+    font-size: 25px;
+    border-bottom: 1px #432 solid;
+    width: 300px;
+}
+
+p {
+    font-size: 20px;
+}
+
+h3.list-title {
+    font-size: 30px;
+    width: 300px;
+    
+}
+
+ul.list {
+    font-size: 25px;
+    
+}
+
+button.reset-button {
+    margin-top: 5px;
+}
+
+div#battle-log {
+    width: 290px;
+    background-color: #fff;
+}
+
+div.a {
+    display: flex;
+}
+
+div.c {
+    margin-left: 10px;
+    margin-top: 70px;
+}
+
+/* ---画像切替-------------------------------------------- */
+
+section img {
+    max-width: 100%;
+}
+
+.center {
+    max-width: 90%;
+    width: 300px;
+}
+
+ul.imgChange {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    flex: 1 1 auto;
+    margin-right: 8px;
+}
+
+li:last-of-type {
+    margin-right: 0;
+}
+
+
+/*---フッター------------------------------------------------*/
+
+footer {
+    background: #432;
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer p {
+    color: #fff;
+    font-size: 0.875rem;
+}
+
+
+
+img.sway {
+
+      /*⬇︎⬇︎2秒ごとに画像が動くようになっている*/
+    animation: fluffy1 2s ease infinite; 
+   }
+   @keyframes fluffy1 {
+     0% {
+       transform: translateY(0); }
+     5% {
+       transform: translateY(0); }
+     10% {
+       transform: translateY(0); }
+     20% {
+       transform: translateY(-10px); }
+     25% {
+       transform: translateY(0); }
+     30% {
+       transform: translateY(-10px); }
+     50% {
+       transform: translateY(0); }
+     100% {
+       transform: translateY(0); } }
