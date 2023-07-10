@@ -20,7 +20,7 @@ const minute = document.getElementById("minute");
 const second = document.getElementById("second");
 
 //カウントの秒数
-let count = 10;
+let count = 180;
 
 //分に変換
 let minuteCount = Math.floor(count / 60);
