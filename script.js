@@ -124,6 +124,7 @@ function clickFunction1() {
     
     newText.textContent = `${attackCount}回でモンスターを倒した！`;
     battleText.appendChild(newText);
+    document.getElementById("battle").src = "images/battle win2.png"
     }
 }
 
@@ -147,6 +148,7 @@ function clickFunction2() {
     let newText = document.createElement("p");
     newText.textContent = `${attackCount}回でモンスターを倒した！`;
     battleText.appendChild(newText);
+    document.getElementById("battle").src = "images/battle win2.png";
 }
 
 
@@ -159,19 +161,6 @@ function clickFunction3() {
         resetElement.removeChild(resetElement.firstChild);
     }
 
-    console.log("RESETしました");
-}
-
-
-
-if (enemy <  0) {
-    document.getElementById("battle").src = "images/battle scene.png";
-}
-
-if (attackCount >=  8) {
-    document.getElementById("battle").src = "images/battle scene.png";
-}
-
-if (attackCount ===  0 && enemy === 100) {
     document.getElementById("battle").src = "images/battle scene2.png";
+    console.log("RESETしました");
 }
